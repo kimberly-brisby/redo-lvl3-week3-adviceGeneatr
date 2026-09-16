@@ -1,7 +1,10 @@
-import axios from "axios";
+import react, { useState } from "react";
 
-const baseUrl = input.meta.VITE_ADVICE_API_URL
+const Advice = {} => {
 
-const adviceClient = axios.create{(
-    
-)}
+    useState()
+
+    return <div>Advice</div>
+};
+
+export default Advice;

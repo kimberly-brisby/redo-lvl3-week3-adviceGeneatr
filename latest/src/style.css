@@ -1,0 +1,30 @@
+body {
+    background-color: hsl(217,19%, 24%);
+    color: #fff;
+    font-family: monospace;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    width: 300px;
+    position: relative;
+    background-color: hsl(217,19%, 38%);
+    padding: 20px;
+}
+
+#pattern{
+    width: 100%;
+}
+
+#dice{
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+}
