@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(217,19%, 24%);
+    color: #fff;
+    font-family: monospace;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    width: 300px;
+    position: relative;
+    background-color: hsl(217,19%, 38%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#pattern{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#dice{
+    position: absolute;
+    bottom: -20;
+    left: 160px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+}
+
+.advice{
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+}

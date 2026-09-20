@@ -1,18 +1,20 @@
 import { useState } from 'react'
-import AdviceCard from "./components/adviceApi"
+import AdviceCard from "./components/AdviceCard"
 
 import './App.css'
 
-function App(cooldownHs) {
-  const {dvice, error, fectchAdvice, isCoolingDown, isLoading}= useAdvice(0);
+function App() {
+  const [adviceIndex, setAdviceIndex] = useState(0);
+  const currentAdvice = SAMPLE_ADVICE[adviceIndex];
+
+  const handleGenerateAdvice =
 
   return (
     <main className='app-shell`>
     <AdviceCard
-    adviceId={advice?.id ?? null}
-    adviceText={isCoolingDown}
-    isLoading={isLoading}
-    onGenerateAdvice={fetchAdvice}
+    adviceId={currentAdvice.id}
+    adviceText={currentAdvice.text}
+    onGenerateAdvice={handleGenerateAdvice}
     />
     </main>
   );
