@@ -1,22 +1,25 @@
-function AdviceButton({onClick, isDisabled = false, label = 'Generate another example advice'})
-{
-    return(
-        <button
-        className="advice-button"
-        type="button"
-        aria-label={label}
-        disabled={isDisabled}
-        onClick={onClick}
-        >
+import AdviceButton from "./AdviceButton";
 
-         <img
-         className="advice-button_icon"
-         src="./images/icon-dice.svg"
-         alt=""
-         aria-hidden="true"
-         />   
-        </button>
-    )
+function AdviceCard({adviceId, AdviceText, onGenerateAdvice}){
+    return(
+        <article className="advice-card" aria-labelledby="advice-heading">
+            <p className="advice-card_eyebrow" id="advice-heading">
+                Advice #{adviceId}
+            </p>
+
+            <blockQuote className="advice-card_quote">"{AdviceText}"</blockQuote>
+
+            <piture className="advice-card_divider" aria-hidden="true">
+                <source
+                media="{min-width:36rem}"
+                srcSet="/images/pattern-divider-desktop.svg"
+                />
+                <img src="/images/pattern-divider-mobile.svg" alt="" />
+            </piture>
+
+            <AdviceButton onClick={onGenerateAdvice} />
+        </article>
+    );
 }
 
-export default AdviceButton;
+export default AdviceCard;
