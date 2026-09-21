@@ -1,22 +1,70 @@
-@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@700,800display=swap);
+@import url(https://fonts.google.com/specimen/Manrope);
 
-.attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-#desktop{
-    width: 100%;
-    margin-bottom: 10px;
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 
-#dice{
-    position: absolute;
-    bottom: -20;
-    left: 160px;
-    background-color: hsl(150, 100%, 66%);
-    border-radius: 50%;
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Manrope, Sans;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.card{
+    background-color: hsl(217, 19%, 24% );
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    width: 400px;
+    position: relative;
 }
 
 .advice{
-    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
     color: hsl(150, 100%, 66%);
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.advicetext{
+    color: hsl(193, 38%, 86%);
+    font: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.divider-img{
+    width: 95%;
+    margin: 0px, auto;
+}
+
+.btn{
+    position: absolute;
+    left: 50%;
+    bottom: -31px;
+    transform: translateX(-50%);
+    padding: 15px, 17px;
+    border: none;
+    background-color: hsl(150, 10%, 66%);
+    border-radius: 50%;
+    cursor: pointer;
 }
