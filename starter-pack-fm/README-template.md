@@ -37,81 +37,50 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://advice-generator-kb.netlify.app)
+- Live Site URL: [Add live site URL here](https://advice-generator-kb.netlify.app)
 
 ## My process
-
+It took me longer to code this then expected. I followed along with class and took notes to configure the best solution to get the best outcome.
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+### Primary
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Blue 200: hsl(193, 38%, 86%)
+- Green 300: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Blue 600: hsl(217, 19%, 38%)
+- Blue 900: hsl(217, 19%, 24%)
+- Blue 950: hsl(218, 23%, 16%)
+
+These a few examples of the color scheme that I used to get the page together. I adjust my html and css based on what needs to inputed in order for the app to work.
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+What I learned is to be patient and expect the on expected when coding. I had the hardest issues with connecting the images to the page. I also had to work harder then normal to get the background color and colors to apply. I also had to remember to name things correctly in order for the sytem to understand on broadcast it.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I need to focus on simply coding. I am not strong with this development and i had to take notes and read over them to understand the ends and out. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 1]YouTube is a very good resource if you get stuck and need extra help to see the other examples. My favorite channel is FrontendMechanix. It is very easy to follow and infomative.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+I did have to ask Google AI when I got stuck and the pictures not being displayed. IT can be a added benefit to be like an extra pair of eyes when you know someting is wrong with your code. I would ask to point out the error in my code so I can only look in that one for issues.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Kimberly Brisby](https://advice-generator-kb.netlify.app)
+- Frontend Mentor - [@kimberly-brisby](https://www.frontendmentor.io/profile/KimberlyBrisby)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
+
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to give thanks to my instuctor Ulises Largaespada and Alex Marjanovic with helping me understand and get through issues on this project.
