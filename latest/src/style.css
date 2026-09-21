@@ -1,21 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@700,800display=swap);
 
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.card{
-    width: 300px;
-    position: relative;
-    background-color: hsl(217,19%, 38%);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#pattern{
+#desktop{
     width: 100%;
     margin-bottom: 10px;
 }

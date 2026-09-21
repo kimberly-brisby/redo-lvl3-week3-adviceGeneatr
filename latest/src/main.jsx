@@ -11,6 +11,6 @@ const root = document.getElementById(`root`);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App cooldown={NEW_COOLDOWN_HS} />
+    <App />
   </StrictMode>,
 )

@@ -2,21 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+   
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
     
     <link rel="stylesheet" href="./src/style.css" />
-     <!-- <link rel="icon" type="image/svg+xml" href="/images/icon-dice.svg" /> -->
-   <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorgin /> -->
+    <script defer src="./useAdvice.js"></script>
+     <link rel="icon" type="image/svg" href="/images/icon-dice.svg" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorgin />
    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght200..850Sdisplay=swap" rel="stylesheet" />
 
    <title>Advice Generator</title>
   </head>
   <body>
+    <div class="card">
+      <div class="advice">Advice #<span id="advice"> 117</span></div>
+      <div class="advicetext" id="It is easy to sit up and take notice, what's difficult is getting up and taking action."></div>
+      <div divider>
+        <img src="./images/pattern-divider-desktop.svg" alt="divider-img">
+      </div>
+      <button class="btn" id="btn">
+        <img src="./images/icon-dice.svg" alt="dice-img">
+      </button>
+        
 
-    
+      </div>
+    </div>
+
+
     <div id="root"></div>
     <script type="module" src="./src/main.jsx" defer></script>
+
+     <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Kimberly Brisby</a>.
+  </footer>
   </body>
 </html>

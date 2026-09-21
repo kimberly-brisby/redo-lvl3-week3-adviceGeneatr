@@ -1,25 +1,12 @@
-import { useState } from 'react'
-import AdviceCard from "./components/AdviceCard"
+// const fetchAdvice = sync () =>  {
+//   const response = await fetch("https://api.advice.adviceslip.com/advice")
+//   const data = await response.json()
 
-import './App.css'
+//   console.log(data)
 
-function App() {
-  const [adviceIndex, setAdviceIndex] = useState(0);
-  const currentAdvice = SAMPLE_ADVICE[adviceIndex];
+//   document.getElementById("title").innerHTML = `Advice #${data.slip.id}`
+//   document.getElementById("text").innerHTML = `${data.sli.advce}`
+// }
 
-  // const handleGenerateAdvice =
 
-  return (
-    <>
-    
-    <AdviceCard
-     adviceId={currentAdvice.id}
-     adviceText={currentAdvice.text}
-     onGenerateAdvice={handleGenerateAdvice}
-    />
-    
-    </>
-  );
-}
-
-export default App;
+// fetchAdvice()
