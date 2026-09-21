@@ -49,7 +49,7 @@ function App() {
 
         {}
         <button className="btn" id="btn" onClick={fetchAdvice}>
-          <img className="dice" src="/images/icon-dice.svg" alt="btn" />
+          <img src="/images/icon-dice.svg" alt="btn" />
         </button>
       </div>
     </div>
