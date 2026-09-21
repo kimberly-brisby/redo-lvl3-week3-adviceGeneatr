@@ -1,0 +1,14 @@
+
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+
+.attribution a { 
+    color: hsl(229, 22%, 85%); 
+}
